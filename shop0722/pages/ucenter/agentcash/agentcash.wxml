@@ -1,0 +1,9 @@
+<view class='top_title'>
+余额：<text class='top_title_text'>1111元</text>
+</view>
+<view>
+<button bindtap='applycash' class='btn' hover-class='btn_press'>提现</button>
+</view>
+<view class='span'>
+提现记录
+</view>

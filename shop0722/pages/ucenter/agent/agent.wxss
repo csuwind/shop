@@ -1,0 +1,74 @@
+/* pages/ucenter/agent/agent.wxss */
+.container {
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  height: 88rpx;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.titleSel {
+  color: #5f6fee;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.titleUnsel {
+  color: #858fab;
+  font-size: #858fab;
+}
+
+.headerLineSel {
+  background: black;
+  height: 6rpx;
+  width: 50%;
+  position: relative;
+  margin-top: 10rpx;
+}
+
+.headerLineUnsel {
+  background: #fff;
+  height: 6rpx;
+  width: 50%;
+  position: relative;
+  margin-top: 10rpx;
+}
+
+.swiper {
+  width: 100%;
+  flex: 1;
+  height:100vh;
+  overflow: scroll;
+}
+
+.recordItem {
+  margin-top: 10rpx;
+  background-color: white;
+  padding-bottom: 20rpx;
+  padding-top: 20rpx;
+}
+
+.top_title{
+   width: 100%;
+  height: 88rpx;
+  background: white;
+  text-align: center
+}
+.top_title_text
+{
+  color: red;
+  font-size: 16px;
+  font-style: weight;
+}

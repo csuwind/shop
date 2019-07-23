@@ -1,0 +1,42 @@
+
+.btn{
+  width: 200px;
+  height: 40px;
+  background: green;
+  color: white;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.btn_press{
+  width: 200px;
+  height: 40px;
+  background:gray;
+  color: white;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.span{
+margin-bottom: 20px;
+color: blue;
+text-decoration:underline; 
+position:fixed;
+  bottom:0;
+  display:flex;
+  width:100%;
+  justify-content:center;
+}
+
+.qrcode {
+    height: 420rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.qrcode > canvas {
+    width: 420rpx;
+    height: 420rpx;
+}

@@ -1,0 +1,8 @@
+
+<view>
+<button class='btn' hover-class='btn_press' bindtap='bindGetAgent'>申请代理</button>
+
+<view class='span'>
+代理政策
+</view>
+</view>

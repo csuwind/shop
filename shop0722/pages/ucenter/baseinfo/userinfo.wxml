@@ -1,0 +1,21 @@
+<form bindsubmit='onSave'>
+<view class="add-address">
+  <view class="add-form">
+    <view class="form-item">
+      <input class="input" name="nickname" placeholder="昵称" value="{{nickname}}" auto-focus/>
+    </view>
+
+    <view class="form-item">
+    头像
+    </view>
+     <view class='photo'>
+      <image src="{{photo}}" class='img' bindtap="chooseImage" name='photo'></image>
+    </view>
+
+  </view>
+
+  <view class="btns">
+    <button class="save" form-type='submit'>修改</button>
+  </view>
+</view>
+</form>

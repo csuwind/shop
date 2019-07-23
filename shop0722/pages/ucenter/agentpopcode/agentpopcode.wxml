@@ -1,0 +1,7 @@
+
+ <view class="qrcode">
+      <canvas canvas-id="qrcode" />
+    </view>
+<view>
+  <button class='btn' hover-class='btn_press' open-type='share'>分享推广码</button>
+</view>
